@@ -75,7 +75,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
