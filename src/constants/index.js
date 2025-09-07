@@ -21,48 +21,111 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
+export const CommunityAndEngagement = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'React + AI Meetup – Rippling, Bangalore',
+    position: 'Community Event',
+    img: '/assets/rippling.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Explored React Compiler, Memory Leakage Prevention, and practical LLM automation using Google Gemini, OpenAI, and Vercel AI SDK.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'ReactPlay Meetup by DevRev – Bangalore',
+    position: 'Community Event',
+    img: 'assets/dev-rev.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Gained insights on scalable React architecture, performance optimization techniques, and building UI design systems for enterprise apps.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Apache Pinot Real-Time Data Meetup',
+    position: 'Community Event',
+    img: 'assets/meesho.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'Learned about real-time analytics pipelines, LLM-driven workflows, and stream-to-decision systems for large-scale platforms.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'JavaScript 10-Year Celebration – Thoughtworks',
+    position: 'Community Event',
+    img: 'assets/thoughtworks.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Focused on AI-augmented TDD, advanced LLM prompt engineering, and GitHub Copilot Agent Mode for productivity in JavaScript and React development.',
   },
 ];
 
 export const myProjects = [
+
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    title: 'Splitr - Expense Manager App',
+    desc: 'Splitwise Clone is a full-featured expense manager app that allows users to track, split, and settle group expenses seamlessly. It features real-time calculations, responsive UI, and intuitive interactions for effortless expense management.',
+    subdesc: 'Expense manager app built with Next.js, React, Tailwind CSS, and Convex.',
+    href: 'https://ai-splitwise-clone.vercel.app',
+    logo: '/assets/project-logo2.png',
+    texture: '/textures/project/project3.mp4',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Convex',
+        path: '/assets/convex.png',
+      },
+    ],
+  },
+
+  {
+    title: 'AI Image Editor',
+    desc: 'AI Image Editor is a web application that allows users to edit, enhance, and manipulate images using modern frontend tools and AI-powered capabilities. Users can apply filters, adjust colors, and perform advanced edits with a seamless, responsive interface.',
+    subdesc: 'AI-powered image editing tool built with Next.js, React, Tailwind CSS, Fabric.js, and Convex.',
+    href: 'https://ai-image-editor-eight.vercel.app',
+    logo: '/assets/project-logo3.png',
+    texture: '/textures/project/project2.mp4',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Fabric.js',
+        path: '/assets/fabricjs.png',
+      },
+    ],
+  },
+  {
+    title: 'Apple AirPods Clone',
+    desc: 'Apple AirPods Clone is a responsive product page replicating the official AirPods site. It features smooth scrolling, interactive sections, and visually appealing layouts with AOS animations for a dynamic user experience.',
+    subdesc: 'Responsive Apple AirPods product page built with React and AOS animations.',
+    href: 'https://adoring-goodall-a5a0c0.netlify.app',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -84,104 +147,22 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'AOS',
+        path: '/assets/aos.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    title: 'YouTube Clone',
+    desc: 'YouTube Clone is a video streaming web application that allows users to search, play, and navigate videos seamlessly. It features a responsive interface with video playback, channel browsing, and dynamic content rendering, replicating key functionalities of the YouTube platform.',
+    subdesc: 'Video streaming app built with React, React Router, React Player, and Material-UI.',
+    href: 'https://project-youtube-clone-three.vercel.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
@@ -192,59 +173,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'React Router',
+        path: '/assets/react-router.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Material-UI',
+        path: '/assets/mui.png',
       },
     ],
   },
 ];
+
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
@@ -260,29 +200,39 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Aditya Birla Fashion & Retail Ltd',
+    pos: 'Front-End Engineer',
+    duration: 'Feb 2023 - Present',
+    title: "I build high-performance, SEO-optimized e-commerce UIs using React.js, Next.js, and Redux-Saga, focusing on improving performance and user experience.",
+    icon: 'assets/work_experince/abfrl.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: '2hub Travel',
+    pos: 'Front-End Engineer',
+    duration: 'Aug 2022 - Feb 2023',
+    title: "Developed a responsive B2B travel platform using React, Next.js, and MUI, integrating travel data via REST APIs for a seamless user experience.",
+    icon: 'assets/work_experince/2hub.jpg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Kalanju',
+    pos: 'Full Stack Engineer',
+    duration: 'Apr 2022 - Aug 2022',
+    title: "Built dynamic UIs using React and MUI, developed RESTful APIs with Node.js and Fastify, and integrated PostgreSQL for scalable applications.",
+    icon: 'assets/work_experince/kalanju.png',
+    animation: 'salute',
+  },
+  {
+    id: 4,
+    name: 'Manvaasam',
+    pos: 'Photographer & Designer',
+    duration: 'Jan 2020 - Nov 2021',
+    title: "Designed marketing visuals and UI mockups using Figma, and managed product listings and SEO optimization for platforms like Amazon and Flipkart.",
+    icon: 'assets/work_experince/manvaasam.webp',
     animation: 'salute',
   },
 ];
+
