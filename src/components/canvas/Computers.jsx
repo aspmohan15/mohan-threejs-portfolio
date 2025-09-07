@@ -53,12 +53,13 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  const cameraSettings = isMobile ? { position: [20, 4, 5], fov: 60 } : { position: [20, 3, 5], fov: 25 };
   return (
     <Canvas
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={cameraSettings}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -67,7 +68,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
           autoRotate
-          autoRotateSpeed={1}
+          autoRotateSpeed={2}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
