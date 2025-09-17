@@ -228,7 +228,7 @@ export const workExperiences = [
   {
     id: 4,
     name: 'Manvaasam',
-    pos: 'Photographer & Designer',
+    pos: 'Digital Marketing & E-commerce Executive',
     duration: 'Jan 2020 - OCT 2021',
     title: "Designed marketing visuals and UI mockups using Figma, and managed product listings and SEO optimization for platforms like Amazon and Flipkart.",
     icon: 'assets/work_experince/manvaasam.webp',
